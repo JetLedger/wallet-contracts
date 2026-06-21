@@ -1,0 +1,13 @@
+{
+  "namespace": "com.jetledger.wallet.event",
+  "type": "record",
+  "name": "MoneyWithdrawn",
+  "fields": [
+    {"name": "walletId", "type": "string"},
+    {"name": "amount", "type": {"type": "string", "avro.java.string": "String"}},
+    {"name": "currency", "type": "string"},
+    {"name": "balanceAfter", "type": {"type": "string", "avro.java.string": "String"}},
+    {"name": "correlationId", "type": "string"},
+    {"name": "timestamp", "type": "string"}
+  ]
+}

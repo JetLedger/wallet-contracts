@@ -1,0 +1,11 @@
+{
+  "namespace": "com.jetledger.wallet.event",
+  "type": "record",
+  "name": "WalletCreated",
+  "fields": [
+    {"name": "walletId", "type": "string"},
+    {"name": "ownerId", "type": "string"},
+    {"name": "currency", "type": "string"},
+    {"name": "timestamp", "type": "string"}
+  ]
+}
