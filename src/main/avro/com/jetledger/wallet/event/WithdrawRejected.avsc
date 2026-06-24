@@ -1,0 +1,14 @@
+{
+  "namespace": "com.jetledger.wallet.event",
+  "type": "record",
+  "name": "WithdrawRejected",
+  "fields": [
+    {"name": "walletId", "type": "string"},
+    {"name": "amount", "type": {"type": "string", "avro.java.string": "String"}},
+    {"name": "currency", "type": "string"},
+    {"name": "balance", "type": {"type": "string", "avro.java.string": "String"}},
+    {"name": "reason", "type": "string"},
+    {"name": "correlationId", "type": "string"},
+    {"name": "timestamp", "type": "string"}
+  ]
+}

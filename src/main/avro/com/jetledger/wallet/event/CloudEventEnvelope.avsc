@@ -1,0 +1,14 @@
+{
+  "namespace": "com.jetledger.wallet.event",
+  "type": "record",
+  "name": "CloudEventEnvelope",
+  "fields": [
+    {"name": "specversion", "type": "string"},
+    {"name": "type", "type": "string"},
+    {"name": "source", "type": "string"},
+    {"name": "id", "type": "string"},
+    {"name": "time", "type": "string"},
+    {"name": "datacontenttype", "type": "string"},
+    {"name": "data", "type": "string"}
+  ]
+}
